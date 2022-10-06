@@ -1,0 +1,76 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+/*formulário*/
+#area
+{
+    position: relative;
+    left: 37%;
+    top: 100px;
+    width: 320px;
+    height: 270px;
+}
+#area #formulario
+{
+    position: absolute;
+    display: block;
+}
+fieldset
+{
+    background-color: #A7C0DC;
+    width: 300px;
+    height: 500px;
+}
+legend
+{
+    font-weight: bold;
+    font-size: "Segoe UI" "Arial" "Times New Roman";
+}
+#formulario label{
+    positiion: absolute
+    left: 5px;
+}
+#formulario input.campo_nome{
+    background-color: #f1ff00;
+    position: absolute;
+    left: 65px;
+    width: 225px;
+}
+#formulario input.campo_email{
+    background-color: #f1ff00;
+    position: absolute;
+    left: 65px;
+    width: 225px;
+}
+#formulario input.campo_senha{
+    background-color: #f1ff00;
+    position: absolute;
+    left: 65px;
+    width: 225px;
+}
+#formulario select.campo_estado{
+    background-color: #f2ff00;
+    position: absolute;
+    left: 65px;
+    width:  225px;
+}
+#formulario textarea.msg{
+    position: absolute;
+    background-color: #f1ff00;
+    left: 20px;
+}
+#formulario input.btn_submit
+{
+    position: absolute;
+    bottom: 10px;
+    left: 175px;
+    background-color: #f1ff00;
+}
+#formulario input.btn_rest
+{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    background-color: #f1ff00;
+}

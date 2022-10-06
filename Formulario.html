@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="/Github/Formulário/Formulário.css" />
+    <!--[if IE]
+        <link rel="stylesheet" type="text/css"  href="/Menu com formulário/27092022ie.css" />
+    falta uma tag-->
+    <title>Meu formulário personalisado</title>
+</head>
+<body>
+    <div id="area">
+        <form id="formulario" autocomplete="off">
+            <fieldset>
+                <legend>FORMULÁRIO</legend>
+                <label>Nome: <input class="campo_nome" type="text" placeholder="Seu Nome" autofocus required></label><br /><br />
+                <label>Email: <input class="campo_email" type="email" placeholder="Seu E-mail"></label><br /><br />
+                <label>Senha: <input class="campo_senha" type="password" placeholder="Sua Senha"></label><br /><br />
+                <label>Estado: 
+                <Select class="campo_estado">
+                    <option value="Valor1">GO</option>
+                    <option value="Valor2" selected>SP</option>
+                    <option value="Valor3">RJ</option>
+                </Select></label>
+                <br>
+                <br>
+                <label>Você deseja trabalhar como Webmaster?</label><br />
+                <label><input type="radio" name="webmaster" value="sim" checked/> Sim</label><br />
+                <label><input type="radio" name="webmaster" value="nao"/> Não</label><br />
+                <label><input type="radio" name="webmaster" value="talvez"/> Talvez</label><br />
+                <label><input type="radio" name="webmaster" value="quem_sabe"/> Quem sabe</label><br />
+                <br /><br />
+                <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8" placeholder="Digite sua mensagem aqui"></textarea><br /><br />
+                <input class="btn_submit" type="submit" value="Enviar">
+                <input class="btn_rest" type="reset" value="Limpar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
