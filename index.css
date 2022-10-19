@@ -12,7 +12,7 @@ ul{
     transition: all 0.5s;
 }
 nav {
-    background-color: black;
+    background-color: green;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
