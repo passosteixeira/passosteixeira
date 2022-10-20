@@ -17,7 +17,7 @@ h1{
     position: relative;
 }
 .menu ul li{
-    width: 150px;
+    width: 180px;
     float: left;
     position: relative;
 }
@@ -38,7 +38,7 @@ h1{
     visibility: hidden;
 }
 .menu ul ul ul{ /*obs*/
-    left: 152px;
+    left: 182px;
     top: 0px;
     display: none;
     position: absolute;
@@ -124,12 +124,12 @@ label[for="bt_menu"]{
         max-height:200px;
         transition:all .4s;
         }
-    .menu ul ul li:hover ul{ /*observação*/
+    /*.menu ul ul li:hover ul{ /*observação*
         height: auto;
         width: auto;
         max-height:200px;
         transition:all .4s;
-        }
+        }*/
     #bt_menu:checked ~ .menu{
         margin-left:0;
         }
