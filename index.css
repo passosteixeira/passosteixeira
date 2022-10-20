@@ -124,12 +124,12 @@ label[for="bt_menu"]{
         max-height:200px;
         transition:all .4s;
         }
-    /*.menu ul ul li:hover ul{ /*observação*
+    .menu ul ul li:hover ul{ /*observação*/
         height: auto;
         width: auto;
         max-height:200px;
         transition:all .4s;
-        }*/
+        }
     #bt_menu:checked ~ .menu{
         margin-left:0;
         }
