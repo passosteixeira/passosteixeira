@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcular combustível</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="calcular.js"></script>
+  </head>
+  <body>
+    <h1>Calcular combustivel</h1>
+    <img src ="/Javascript/js_trabalho_final/Imagens/maxresdefault.jpg" id="imagem03" width="280px" margin="auto" >
+    <p>Insira a distâcia a ser percorrida no trajeto:</p>
+    <form name="perc">
+      <input type="text" name="txtpercurso" size="12" placeholder="Distância em Km" />
+      <input type="reset" value="Limpar" />
+    </form>
+    <form name="frdados">
+      <div class="carroa">
+        <h4>CARRO "A"</h4>
+        <input type="text" name="kmletaa" size="10" placeholder="Km/L Etanol" />
+        <input type="text" name="kmlgasa" size="10" placeholder="Km/L Gasolina" />
+        <input type="button" value="Calcular" onclick="calca()" />
+        <input type="reset" value="Limpar" onclick="limpara()" />
+      </div>
+      <div class="carrob">
+        <h4>CARRO "B"</h4>
+        <input type="text" name="kmletab" size="10" placeholder="Km/L Etanol" />
+        <input type="text" name="kmlgasb" size="10" placeholder="Km/L Gasolina" />
+        <input type="button" value="Calcular" onclick="calcb()" />
+        <input type="reset" value="Limpar" onclick="limparb()" />
+      </div>
+    </form>
+    <div class="resula">
+      <h4>RESULATDO CARRO "A"</h4>
+      <p id="ltetaa">Quantidade de litros de Etanol gastos:</p>
+      <p id="ltgasa">Quantidade de litros de Gasolina gastos:</p>
+    </div>
+    <div class="resulb">
+      <h4>RESULATDO CARRO "B"</h4>
+      <p id="ltetab">Quantidade de litros de Etanol gastos:</p>
+      <p id="ltgasb">Quantidade de litros de Gasolina gastos:</p>
+    </div>
+  </body>
+</html>

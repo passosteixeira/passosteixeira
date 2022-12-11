@@ -1,0 +1,27 @@
+img{
+    margin-left: 32px;
+}
+h1{
+    background-color: #161616;
+    color: #fff;
+    width: 335px;
+    padding: 5px;
+    text-align: center;
+}
+h4{
+    background-color: blue;
+    color: #fff;
+    width: 335px;
+    padding: 5px;
+    text-align: center;
+}
+input[type="button"]{
+    background-color: rgb(17, 255, 0);
+    color: #fff;
+    border-color: rgb(17,255,0);
+}
+input[type="reset"]{
+    background-color: rgb(17, 255, 0);
+    color: #fff;
+    border-color: rgb(17,255,0);
+}
